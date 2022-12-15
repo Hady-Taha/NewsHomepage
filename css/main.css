@@ -1,0 +1,32 @@
+:root{
+    --color1:#F5A637;
+}
+
+@font-face {
+    font-family: "externalFont";
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "externalFont";
+    src: url(../fonts/static/Inter-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "externalFont";
+    src: url(../fonts/static/Inter-ExtraBold.ttf) format("truetype");
+    font-weight: bold;
+    
+}
+
+* {
+    font-family: externalFont;
+}
+
+
+.color1{
+    color: var(--color1);
+}
