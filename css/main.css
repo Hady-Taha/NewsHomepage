@@ -1,5 +1,5 @@
-:root{
-    --color1:#F5A637;
+:root {
+    --color1: #F5A637;
 }
 
 @font-face {
@@ -19,7 +19,7 @@
     font-family: "externalFont";
     src: url(../fonts/static/Inter-ExtraBold.ttf) format("truetype");
     font-weight: bold;
-    
+
 }
 
 * {
@@ -27,6 +27,17 @@
 }
 
 
-.color1{
+.color1 {
     color: var(--color1);
+}
+
+.readMoreBtn {
+    background-color: #F24535;
+    color: #fff;
+}
+
+
+.readMoreBtn:hover {
+    background-color: #000;
+    color: #F5A637;
 }
