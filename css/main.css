@@ -41,3 +41,10 @@
     background-color: #000;
     color: #F5A637;
 }
+
+
+.navbar-toggler:focus {
+    text-decoration: none;
+     outline: none; 
+    box-shadow:none;
+}
